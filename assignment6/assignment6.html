@@ -24,6 +24,19 @@
             color: white;
             text-decoration: none;
         }
+        .cards{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            padding: 24px;
+        }
+        .card{
+            flex: 1 1 200px;
+            background: #eef2ff;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -35,6 +48,12 @@
            <li><a href="#">contact</a></li>
         </ul>
         <button class="btn">sign up</button>
+        <section class="cards">
+            <div class="card"><h3>HTML</h3><p>build the structure</p></div>
+            <div class="card"><h3>CSS</h3><p>make it beautiful</p></div>
+            <div class="card"><h3>javascript</h3><p>make it smart</p></div>
+            <div class="card"><h3>git</h3><p>save your work</p></div>
+        </section>
     </nav>
 </body>
 </html>
